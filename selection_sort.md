@@ -1,6 +1,6 @@
-# Bubble Sort
+# Selection Sort
 
-Bubble sort Psuedocode
+Selection sort Psuedocode
 
 ```
 START
@@ -25,7 +25,7 @@ START
 END
 
 ```
-Bubble sort Flowchart
+Selection sort Flowchart
 
-![bubblesort](https://github.com/user-attachments/assets/6573a7de-9617-40e8-9023-92610cd45b86)
+
 
