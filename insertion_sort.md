@@ -1,3 +1,7 @@
+#Insertion Sort
+
+Pseudocode
+```
 START
     INPUT array
     FOR i from 1 to length of array - 1
@@ -9,3 +13,4 @@ START
         array[j + 1] = key
     END FOR
 END
+```
