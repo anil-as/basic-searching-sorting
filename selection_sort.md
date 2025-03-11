@@ -8,19 +8,14 @@ START
   INPUT n
   PRINT "Enter the elements"
   INPUT elements
-  FOR i:1 TO n
-    SET swapped = FALSE     
-    FOR j:1 TO n-i
-      IF elements[j]>elements[j+1]
-        temp=elements[j]
-        elements[j]=elements[j+1]
-        elements[j+1]=temp
-        SET swapped = TRUE    
+  FOR i:1 TO n-1
+    SET minIndex = i      
+    FOR j:i+1 TO n
+      IF elements[j] < elements[minIndex]
+        SET minIndex = j  
       END IF
     END FOR
-    IF swapped = FALSE      
-      BREAK               
-    END IF
+    SWAP(elements[i], elements[minIndex])  
   END FOR
 END
 
