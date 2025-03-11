@@ -12,7 +12,9 @@ START
     SET swapped = FALSE     
     FOR j:1 TO n-i
       IF elements[j]>elements[j+1]
-        swap(elements[j],elements[j+1])
+        temp=selements[j]
+        elements[j]=elements[j+1]
+        elements[j+1]=temp
         SET swapped = TRUE    
       END IF
     END FOR
