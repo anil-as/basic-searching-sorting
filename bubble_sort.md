@@ -12,7 +12,7 @@ START
     SET swapped = FALSE     
     FOR j:1 TO n-i
       IF elements[j]>elements[j+1]
-        swap(elements[i],elements[i+1])
+        swap(elements[j],elements[j+1])
         SET swapped = TRUE    
       END IF
     END FOR
@@ -25,5 +25,5 @@ END
 ```
 Bubble sort Flowchart
 
-![bubblesort](https://github.com/user-attachments/assets/23d41b8b-5b08-449e-9cb5-cbb1f36e15f8)
+![bubblesort](https://github.com/user-attachments/assets/085329b9-2cf6-4305-97ba-0fb7861f8154)
 
