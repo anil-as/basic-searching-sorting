@@ -4,6 +4,8 @@ Bubble sort psuedocode
 
 ```
 START
+  PRINT "Enter the number of elements"
+  INPUT n
   PRINT "Enter the elements"
   INPUT elements
   FOR i:1 TO n
