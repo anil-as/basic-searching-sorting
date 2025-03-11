@@ -1,6 +1,6 @@
 # Bubble Sort
 
-Bubble sort psuedocode
+Bubble sort Psuedocode
 
 ```
 START
@@ -19,4 +19,6 @@ START
 END FOR
 END
 ```
-![bubblesort](https://github.com/user-attachments/assets/83170c4a-2344-484f-b8ee-a9cf15d008da)
+Bubble sort Flowchart
+
+![bubblesort](https://github.com/user-attachments/assets/d038007b-47fa-4bde-bc5a-dbc4433908d5)
