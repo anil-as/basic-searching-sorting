@@ -20,5 +20,5 @@ END FOR
 END
 ```
 Bubble sort Flowchart
+![bubblesort](https://github.com/user-attachments/assets/3fdc8dce-c1ac-446f-ad60-001b3f4e0679)
 
-![bubblesort](https://github.com/user-attachments/assets/d038007b-47fa-4bde-bc5a-dbc4433908d5)
